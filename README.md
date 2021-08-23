@@ -6,8 +6,8 @@
 python -m pip install Django
 
 </code></pre>
-<pre><code>
 3. 설치 확인
+<pre><code>
 >>> import django
 >>> print(django.get_version())
 3.2
