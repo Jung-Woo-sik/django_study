@@ -93,3 +93,6 @@ urlpatterns = [
 ]
 
 </code></pre>
+![Alt text](./img/view.png)
+![Alt text](./img/view.png "django 기초 view")
+
