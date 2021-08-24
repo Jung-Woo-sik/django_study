@@ -35,3 +35,14 @@ preject/
 * urls.py : 프로젝트의 URL 선언 저장
 * asgi.py : AGSI 웹서버의 엔트리포인트
 * wsgi.py : WSGI 호환 웹 서버의 포인트
+
+3. project 시작
+<pre><code>
+python3 manage.py runserver
+</code></pre>
+* App 만들기
+<pre><code>
+python3 manage.py startapp {app name}
+</code></pre>
+
+
