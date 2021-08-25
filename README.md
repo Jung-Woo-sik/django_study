@@ -1,5 +1,7 @@
 # django_study
 ## django 시작하기
+
+### 8/23
 1. 파이썬 설치
 2. 장고 설치
 <pre><code>
@@ -58,6 +60,7 @@ app_name/
 
 </code></pre>
 
+### 8/24
 * view 작성
 app에 views.py를 수정한다. 
 <pre><code>
@@ -94,5 +97,26 @@ urlpatterns = [
 
 </code></pre>
 ![Alt text](./img/view.png)
-![Alt text](./img/view.png "django 기초 view")
+
+### 8/25
+
+4. 데이터베이스 설치
+* 데이터베이스 바인딩을 설치한 후 settings.py 에서 Database default 값을 변경
+> 'django.db.backends.sqlite3', 'django.db.backends.postgresql', 'django.db.backends.mysql', 또는 'django.db.backends.oracle' 로 변경
+
+5. 모델 만들기
+
+* 모델 : 부가적인 메타데이터를 가진 데이터베이스의 구
+> Django는 DRY 원칙을 따른다
+>> DRY : Do not Reapeat Yourself의 약자로 반복하지 말 것 이란 뜻으로 고유한 개념 및 데이터는 단 한번, 한 곳에만 존재해야한. 모델도 마찬가지로 한 곳에만 저장되는 것이 좋다.
+
+> 데이터베이스의 각 필드는 Field 클래스의 인스턴스로 표현, 각 필드가 어떤 자료형을 가질 수 있는지 말해준다
+> 각각의 Field 인스턴스의 이름은 machine friendly format
+> Field 클래스의 생성자에 선택적으로 human-readable로 지정할 수도 있
+> 몇몇 클래스는 필수 인수가 필요하고 또한 다양한 선택적 인수를 가지는 필드도 존재
+> ForeignKey를 사용하여 관계 설정이 가능하다.
+
+
+
+
 
